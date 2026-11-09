@@ -1,0 +1,14 @@
+{
+  "name": "devops-node-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "node --check src/server.js",
+    "test": "node --test",
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
